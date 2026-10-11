@@ -163,9 +163,18 @@ Future<void> main() async {
 
 > ✅ **Checkpoint 2.1** ทดสอบสมัครสมาชิกด้วย Email ใหม่สำเร็จ ถ่ายภาพหน้าจอ Firebase Console เมนู Authentication → Users ที่แสดงบัญชีที่เพิ่งสมัคร จากนั้นทดสอบกรณีผิดพลาด 2 กรณี คือ (ก) สมัครซ้ำด้วย Email เดิม และ (ข) ใส่รหัสผ่านสั้นเกินไป ถ่ายภาพหน้าจอข้อความ Error ทั้งสองกรณี พร้อมอธิบายว่าโค้ดส่วนใดใน `auth_service.dart` เป็นตัวจัดการแต่ละกรณี
 
-```text
-บันทึกรูปผลลัพธ์ที่นี่ และคำอธิบายของแต่ละกรณี
-```
+### ภาพหน้าจอ Firebase Console เมนู Authentication → Users ที่แสดงบัญชีที่เพิ่งสมัคร
+
+<img width="1917" height="948" alt="image" src="https://github.com/user-attachments/assets/b80bdfcf-62d0-49fe-8fe6-f425f1c408cf" />
+
+### (ก) สมัครซ้ำด้วย Email เดิม
+
+<img width="437" height="992" alt="image" src="https://github.com/user-attachments/assets/0e9f5fa8-45c9-4382-84f0-30ade31d5e54" />
+
+### (ข) ใส่รหัสผ่านสั้นเกินไป
+
+<img width="425" height="992" alt="image" src="https://github.com/user-attachments/assets/35d1f359-dd25-4bf0-bb83-df25f8dccdb5" />
+
 
 ---
 
