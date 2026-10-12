@@ -549,9 +549,22 @@ Widget build(BuildContext context) {
 
 > ✅ **Checkpoint 4.1** ถ่ายภาพหน้าจอ 3 ภาพเรียงกัน คือ (ก) แอปตอนเพิ่งเปิดขึ้นมาครั้งแรกแบบยังไม่ล็อกอิน แสดงหน้า Login (ข) หลังล็อกอินสำเร็จ แอปสลับไปแสดง `MainScaffold` อัตโนมัติโดยไม่ต้องกดอะไรเพิ่ม และ (ค) หลังกด "ออกจากระบบ" แอปสลับกลับไปหน้า Login เอง อธิบายว่าทำไมการใช้ `StreamBuilder` ฟัง `authStateChanges()` จึงทำให้ไม่ต้องเขียนโค้ดสั่ง Navigate ไปมาเอง
 
+### (ก) แอปตอนเพิ่งเปิดขึ้นมาครั้งแรกแบบยังไม่ล็อกอิน
+
+<img width="420" height="947" alt="image" src="https://github.com/user-attachments/assets/7996fbc1-e19b-412f-b597-ff538a886837" />
+
+### (ข) หลังล็อกอินสำเร็จ
+
+<img width="427" height="962" alt="image" src="https://github.com/user-attachments/assets/27937ce0-8364-4da3-8dd1-681e81f5f29c" />
+
+### (ค) หลังกด "ออกจากระบบ" แอปสลับกลับไปหน้า Login เอง 
+
+<img width="430" height="966" alt="image" src="https://github.com/user-attachments/assets/a47942e0-a50e-4e9e-b3da-bd931e605ddb" />
+
 
 ```text
-บันทึกรูปผลลัพธ์ที่นี่ (3 ภาพ) และคำอธิบาย
+ใช้ StreamBuilder ฟัง authStateChanges() เพราะ Firebase จะแจ้งเตือนเมื่อสถานะการล็อกอินเปลี่ยนแปลง ทำให้แอปสลับหน้าจออัตโนมัติ โดยแสดงหน้า Login เมื่อยังไม่ได้ล็อกอิน และแสดงหน้า MainScaffold เมื่อล็อกอินสำเร็จ จึงไม่จำเป็นต้องเขียน Navigator.push() หรือ Navigator.pop() เพื่อเปลี่ยนหน้าจอเอง
+
 ```
 
 ---
