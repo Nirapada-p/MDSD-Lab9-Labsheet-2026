@@ -803,7 +803,17 @@ service cloud.firestore {
 <img width="440" height="990" alt="image" src="https://github.com/user-attachments/assets/d1bb5a0e-386f-4295-a0ed-68054fef956c" />
 
 
-### 3
+### 3 โพสต์ไม่ได้ 
+
+<img width="415" height="946" alt="image" src="https://github.com/user-attachments/assets/b9f0a52d-3f24-445b-ad97-a277398e5a4a" />
+
+### 4 เปิดเครือข่ายกลับมา แล้วโพสต์ขายจริง
+
+<img width="410" height="946" alt="image" src="https://github.com/user-attachments/assets/e2c6fc3e-33e7-46e2-8686-a127b80a61d1" />
+
+
+<img width="407" height="953" alt="image" src="https://github.com/user-attachments/assets/e11d6897-d9da-4330-adf8-280ab0801d9e" />
+
 
 ---
 
