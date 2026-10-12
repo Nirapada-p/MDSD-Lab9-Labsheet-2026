@@ -579,7 +579,9 @@ Widget build(BuildContext context) {
 2. ถ้าในอนาคตอาจารย์สั่งให้เปลี่ยนจาก Fake Store API ไปใช้ API อื่น ต้องแก้ไฟล์กี่ไฟล์ ถ้าทุก Widget เรียกผ่าน Interface `ItemRepository` เท่านั้น?
 
 ```text
-บันทึกคำตอบของคุณที่นี่
+1.เพื่อแยกการทำงานของแหล่งข้อมูลออกจากกัน ทำให้สามารถเลือกใช้ Firestore หรือ Fake Store API ได้โดยไม่ต้องแก้โค้ดเดิม และช่วยให้ HomePage ไม่ต้องจัดการดึงข้อมูลเองโดยตรง
+
+2.แก้หลัก ๆ เพียง 1 ไฟล์ ที่กำหนดการเลือก Repository เช่น main.dart โดย Widget อื่นยังเรียกผ่าน Interface ItemRepository เหมือนเดิม จึงไม่ต้องแก้ทุก Widget
 ```
 
 ### ขั้นตอนที่ 5.2: **นักศึกษาเขียน Code เอง** — ItemRepositoryFirestore
